@@ -1,21 +1,20 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title: River Heaven Colony, Dehradun
+image: /img/river-heaven.jpg
+heading: River Heaven Uttrakhand
+subheading: Jay Hind, Jay Dev Bhumi Uttrakhand
 mainpitch:
-  title: Why Kaldi
+  title: About
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+    River Heaven Colony, Jhajra is located in Vikasnagar Tehsil of Dehradun
+    district in Uttarakhand, India. It is situated 25km away from sub-district
+    headquarter Vikasnagar (tehsildar office) and 13km away from district
+    headquarter Dehradun
+description: Kaldi is the ultimate spot for coffee lovers who want to learn
+  about their java’s origin and support the farmers that grew it. We take coffee
+  production, roasting and brewing seriously and we’re glad to pass that
+  knowledge to anyone.
 intro:
   blurbs:
     - image: /img/coffee.png

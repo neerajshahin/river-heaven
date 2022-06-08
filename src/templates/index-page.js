@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 
 import Layout from "../components/Layout";
-import Features from "../components/Features";
+// import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import FullWidthImage from "../components/FullWidthImage";
 
@@ -36,23 +36,38 @@ export const IndexPageTemplate = ({
                     <div className="tile">
                       <h3 className="subtitle">{mainpitch.description}</h3>
                     </div>
+                    <div style={{"position": "relative","overflow": "hidden","width": "100%","padding-top": "56.25%"}}>
+                      <iframe title="river heaven" style= {{position: "absolute",top: 0,left: 0,bottom: 0,right: 0,width: "100%",height: "100%"}} id="gmap_canvas" src="https://maps.google.com/maps?q=river%20heaven,%20jhajra,%20dehradun&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    </div>
                   </div>
-                  <div className="columns">
+                  {/* <div className="columns">
                     <div className="column is-12">
                       <h3 className="has-text-weight-semibold is-size-2">
                         {heading}
                       </h3>
                       <p>{description}</p>
                     </div>
-                  </div>
-                  <Features gridItems={intro.blurbs} />
+                  </div> */}
+
+                  {/* <div className="columns" >
+                    <div className="column is-12">
+                      <h3 className="has-text-weight-semibold is-size-2">
+                        Map
+                      </h3>
+                      
+                    </div>
+                  </div> */}
+
+
+                  
+                  {/* <Features gridItems={intro.blurbs} />
                   <div className="columns">
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/products">
                         See all products
                       </Link>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
                       Latest stories
