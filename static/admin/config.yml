@@ -8,7 +8,9 @@ backend:
     uploadMedia: "[skip ci] Upload “{{path}}”"
     deleteMedia: "[skip ci] Delete “{{path}}”"
 
-local_backend: true
+# to run local CMS
+# npx netlify-cms-proxy-server <- run this in terminal
+# local_backend: true <- uncomment this
 media_folder: static/img
 public_folder: /img
 
